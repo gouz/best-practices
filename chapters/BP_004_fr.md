@@ -46,7 +46,7 @@ soumet le formulaire, et se voit à ce moment proposées différentes options : 
 « Loison sous Lens ».
 
 Si le recours à l'autocomplétion ne peut pas être évité il est possible de minimiser le nombre de requêtes avec des optimisations simples : 
- - Ajouter un délai de quelque dixièmes de secondes entre l'ajout d'un caractère et la requête : cela permet de ne pas déclencher de requête si l'utilisateur n'a pas terminé sa saisie.
+ - Ajouter un délai de quelques dixièmes de secondes entre l'ajout d'un caractère et la requête : cela permet de ne pas déclencher de requête si l'utilisateur n'a pas terminé sa saisie.
  - Limiter le nombre de résultats affichés par l'autocomplétion, priorisés par une note de pertinence
  - Fixer un nombre de caractères minimal avant de chercher à compléter.
  - Si la taille de la base de données le permet, l'inclure dans le code html ou dans le `local storage` et effectuer l'autocomplétion côté client.
